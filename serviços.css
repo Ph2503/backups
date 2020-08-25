@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    
+}
+body {
+    margin: 0;
+    background-image: url(../blog2/fundoserviços.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1#tserviços {
+    font-family: 'Questrial', sans-serif;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    margin: 100px auto auto 270px;
+}
+#stserviços {
+    font-family: 'Questrial', sans-serif;
+    font-size: 22px;
+    width: 800px;
+    margin: 50px 270px ;
+    color: rgb(0, 0, 0);
+}
+#hcell {
+    width: 200px;
+    margin-top: -200px;
+}
+section#section {
+    width: 100%;
+    margin-top: -12px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 200px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+#topo {
+    width: 100%;
+    height: 50px;outline:none;
+    display: flex;
+    justify-content: center;    flex-grow: 1;
+    color: white;
+    align-items: center;
+    background-color: rgba(155, 151, 151, 0);
+    transition: all .5s;
+    position: fixed ;
+    overflow: hidden;
+}
+#topo.menuFixo{
+    width: 100%;
+    height: 52px;outline:none;
+    display: flex;
+    
+    justify-content: center;    flex-grow: 1;
+    /*border-bottom: 1px solid rgb(0, 0, 0);*/
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.699);
+    overflow: hidden;
+    position: fixed ;  
+    transition: all .5s;
+}
+
+#topo ul {
+    list-style: none;
+    margin: 0;
+    position: absolute ;    flex-grow: 1;
+    text-decoration: none;
+    cursor: pointer;outline:none;
+    transition: all .4s;
+    text-align: center;
+
+
+
+}
+
+#topo ul li {
+    display: inline-block;
+    list-style: none;
+    display: inline;outline:none;
+    text-decoration: none;
+
+    flex-grow: 1;
+}
+#topo ul li a {
+    padding: 10px 51px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);outline:none;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .5s;
+    flex-grow: 1;
+    
+}
+#topo.menuFixo ul li a {
+    padding: 10px 50px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;outline:none;
+    flex-grow: 1;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .4s;
+    
+}
+#topo ul li a:hover {
+    color:rgb(255, 255, 255) ;
+    transition: color .3;outline:none;
+    background-color: rgba(0, 0, 0, 0.678);
+    flex-grow: 1;
+    
+    transition:  background-color .5s;
+    
+
+    
+
+}
+#topo.menuFixo ul li a:hover {
+    color: rgb(61, 78, 235);outline:none;
+    transition: color .3;
+    background-color: rgb(255, 255, 255);
+    
+    flex-grow: 1;
+    transition:  background-color .5s;
+    
+
+    
+
+}
+#iii {
+    border-bottom: 2px solid rgb(83, 93, 236);outline:none;
+    transition: all .2s;    flex-grow: 1;
+}
+#topimg {
+    width: 51px;
+    position: fixed;
+    margin-top: -1px;
+    margin-left: 1222px;    flex-grow: 1;
+    transition: ease 1s;
+    filter: contrast(120%);
+    outline:none;
+}
+::-webkit-scrollbar {
+    width: 5px;outline:none;
+    flex-grow: 1;
+}
+
+::-webkit-scrollbar-track {
+    background:  rgba(255, 255, 255, 0);
+    transition: all .5s;    flex-grow: 1;outline:none;
+}
+
+  
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    transition: all .5s;    flex-grow: 1;outline:none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.986);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+    border-radius: 20px;
+    transition: all .5s;    flex-grow: 1;outline:none;
+    background-color: rgb(0, 4, 255);
+}
+
+/*font-family: 'Kanit', sans-serif;
+
+font-family: 'Montserrat Subrayada', sans-serif;
+
+font-family: 'Orbitron', sans-serif;
+
+font-family: 'Poppins', sans-serif;
+
+font-family: 'MuseoModerno', cursive;
+
+font-family: 'Questrial', sans-serif;
+
+rgb(197, 151, 125)
+
+*/
